@@ -1,5 +1,4 @@
 # Function used to sort a list using Bubble sort algorithm. 
-
 def bubbleSort(li):
     t=len(li)
     for i in range(t-1):
@@ -9,9 +8,7 @@ def bubbleSort(li):
     return li 
 
 # Taking list as input. 
-
 s=list(map(int,input().split()))  
 
 # Displaying the sorted list. 
-
 print(*bubbleSort(s))

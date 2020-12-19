@@ -13,5 +13,5 @@ def insertionSort(li):
 # Taking a list as input.
 s=list(map(int,input().split())) 
 
-# Displaying sorted list.
+# Displaying the sorted list.
 print(*insertionSort(s))
